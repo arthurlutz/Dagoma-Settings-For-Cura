@@ -17,6 +17,14 @@ Par défaut, sous Windows 64bits :
   - `.\resources\quality\dagoma_discoeasy200\*.inst.cfg`
 - Les paramètres des différents filaments :
   - `.\resources\materials\*.xml.fdm_material`
+  
+Sous linux (testé sous Ubuntu) : 
+
+```bash
+git clone https://github.com/DelphinPETER/Dagoma-Settings-For-Cura/
+cd Dagoma-Settings-For-Cura/
+sudo cp -rv resources/* /usr/share/cura/resources/
+```
 
 **Attention ces fichiers vous sont fournis sans garantie**. Je ne pourrais être tenu responsable d'un quelconque dommage causé à votre imprimante 3D. A vous de bien vérifier les paramètres avant de lancer l'impression.
 
